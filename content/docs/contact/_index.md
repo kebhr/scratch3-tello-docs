@@ -6,6 +6,6 @@ bookToc: false
 
 # Contact Me
 
-Please fill [this form](https://docs.google.com/forms/d/e/1FAIpQLScoX0anufssjZboCfd4y3eZU0qT87GMDammEpKtSMretOI9-A/viewform) to contact me.
+Please use [this form](https://docs.google.com/forms/d/e/1FAIpQLScoX0anufssjZboCfd4y3eZU0qT87GMDammEpKtSMretOI9-A/viewform) to contact me.
 
 I will reply within a few days, but I may not be able to reply to all inquiries.

@@ -6,7 +6,7 @@ weight: 10
 # 環境構築
 `scratch3-tello` リポジトリには `scratch-vm` と `scratch-gui` リポジトリに対する差分がファイル単位で格納されています。そのため、scratch3-telloをビルドするためには、`scratch-vm` と `scratch-gui` をクローンしてから、差分を適用する必要があります。
 
-## Requirements
+## 必要なもの
 - wget
 - git
 - node.js
@@ -18,13 +18,13 @@ $ mkdir scratch3-tello
 $ cd scratch3-tello
 ```
 
-## 環境構築用スクリプトをダウンロードする
+## ビルドスクリプトのダウンロード
 ```bash
 $ wget https://raw.githubusercontent.com/kebhr/scratch3-tello/master/build.sh
 $ chmod +x build.sh
 ```
 
-## 環境構築用スクリプトを実行する
+## ビルドスクリプトの実行
 ```bash
 $ ./build.sh
 ```

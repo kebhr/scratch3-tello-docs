@@ -15,13 +15,13 @@ Extract the downloaded zip file to a location of your choice.
 ## Launch
 **After connecting to Tello**, launch `Scratch-Tello.app`, which is contained in the extracted folder.
 
-For the first time only, due to a security feature of macOS, the application cannot be opened by double-clicking.
-You can open the file by holding down the Control key, clicking on the file, and selecting "Open" from the menu that appears.
+On the first launch, macOS security restrictions will prevent you from opening the application by double-clicking.
+Instead, hold the Control key and click the app, then select "Open" from the context menu.
 
 ![launch on macOS](/images/macos_launch.png)
 
-When launched, press the Extensions button in the lower left corner and click on the extension labeled "Tello". A block for programming Tello will appear.
+Once launched, click the Extensions button in the lower-left corner and select the "Tello" extension. The blocks for programming Tello will appear.
 
 ## Troubleshooting
 
-If Tello does not take off after executing the `takeoff` block, it is possible that a command sent by another block is waiting to be executed. Executing the "Clear command waiting to be executed" block will solve the problem.
+If Tello does not take off after running the `takeoff` block, commands from other blocks may be queued and waiting to execute. Running the "Reset command queue" block should resolve the issue.

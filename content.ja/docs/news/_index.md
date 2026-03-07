@@ -17,7 +17,7 @@ v1.3.2 は[こちら](https://github.com/kebhr/scratch3-tello/releases/tag/v1.3.
 - ドイツ語に対応しました
 - フランス語を利用しているとき、コマンド内の変数が利用できない問題を修正しました
 
-v1.3.1は [こちら](https://github.com/kebhr/scratch3-tello/releases/tag/v1.3.1)からダウンロードできます。
+v1.3.1 は[こちら](https://github.com/kebhr/scratch3-tello/releases/tag/v1.3.1)からダウンロードできます。
 
 ## Nov 2, 2022 / v1.3.0 is released
 
