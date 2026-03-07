@@ -4,41 +4,29 @@
     <title>Getting started on Scratch3-Tello</title>
     <link>https://scratch3-tello.app/docs/getting-started/</link>
     <description>Recent content in Getting started on Scratch3-Tello</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://scratch3-tello.app/docs/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://scratch3-tello.app/docs/getting-started/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>For Windows</title>
       <link>https://scratch3-tello.app/docs/getting-started/windows/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://scratch3-tello.app/docs/getting-started/windows/</guid>
-      <description>For Windows # Download # Go to Releases on GitHub and download the file named windows.zip.
-Extract # Extract the downloaded zip file to a location of your choice.
-Launch # After connecting to Tello, launch Scratch3-Tello.exe, which is contained in the extracted folder.
-Troubleshooting # If Tello does not take off after executing the takeoff block, it is possible that a command sent by another block is waiting to be executed.</description>
+      <description>&lt;h1 id=&#34;for-windows&#34;&gt;For Windows&lt;a class=&#34;anchor&#34; href=&#34;#for-windows&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;download&#34;&gt;Download&lt;a class=&#34;anchor&#34; href=&#34;#download&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Go to &lt;a href=&#34;https://github.com/kebhr/scratch3-tello/releases&#34;&gt;Releases&lt;/a&gt; on GitHub and download the file named &lt;code&gt;windows.zip&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;extract&#34;&gt;Extract&lt;a class=&#34;anchor&#34; href=&#34;#extract&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Extract the downloaded zip file to a location of your choice.&lt;/p&gt;&#xA;&lt;h2 id=&#34;launch&#34;&gt;Launch&lt;a class=&#34;anchor&#34; href=&#34;#launch&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;After connecting to Tello&lt;/strong&gt;, launch &lt;code&gt;Scratch3-Tello.exe&lt;/code&gt;, which is contained in the extracted folder.&lt;/p&gt;&#xA;&lt;p&gt;Once launched, click the Extensions button in the lower-left corner and select the &amp;ldquo;Tello&amp;rdquo; extension. The blocks for programming Tello will appear.&lt;/p&gt;&#xA;&lt;h2 id=&#34;troubleshooting&#34;&gt;Troubleshooting&lt;a class=&#34;anchor&#34; href=&#34;#troubleshooting&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;If Tello does not take off after running the &lt;code&gt;takeoff&lt;/code&gt; block, commands from other blocks may be queued and waiting to execute. Running the &amp;ldquo;Reset command queue&amp;rdquo; block should resolve the issue.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>For macOS</title>
       <link>https://scratch3-tello.app/docs/getting-started/macos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://scratch3-tello.app/docs/getting-started/macos/</guid>
-      <description>For macOS # Download # Go to Releases on GitHub and download the file named macos.zip.
-Extract # Extract the downloaded zip file to a location of your choice.
-Launch # After connecting to Tello, launch Scratch-Tello.app, which is contained in the extracted folder.
-For the first time only, due to a security feature of macOS, the application cannot be opened by double-clicking. You can open the file by holding down the Control key, clicking on the file, and selecting &amp;ldquo;Open&amp;rdquo; from the menu that appears.</description>
+      <description>&lt;h1 id=&#34;for-macos&#34;&gt;For macOS&lt;a class=&#34;anchor&#34; href=&#34;#for-macos&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;download&#34;&gt;Download&lt;a class=&#34;anchor&#34; href=&#34;#download&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Go to &lt;a href=&#34;https://github.com/kebhr/scratch3-tello/releases&#34;&gt;Releases&lt;/a&gt; on GitHub and download the file named &lt;code&gt;macos.zip&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;extract&#34;&gt;Extract&lt;a class=&#34;anchor&#34; href=&#34;#extract&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Extract the downloaded zip file to a location of your choice.&lt;/p&gt;&#xA;&lt;h2 id=&#34;launch&#34;&gt;Launch&lt;a class=&#34;anchor&#34; href=&#34;#launch&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;After connecting to Tello&lt;/strong&gt;, launch &lt;code&gt;Scratch-Tello.app&lt;/code&gt;, which is contained in the extracted folder.&lt;/p&gt;&#xA;&lt;p&gt;On the first launch, macOS security restrictions will prevent you from opening the application by double-clicking.&#xA;Instead, hold the Control key and click the app, then select &amp;ldquo;Open&amp;rdquo; from the context menu.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>For Linux</title>
       <link>https://scratch3-tello.app/docs/getting-started/linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://scratch3-tello.app/docs/getting-started/linux/</guid>
-      <description>For Linux # Currently, I don&amp;rsquo;t provide pre-built binaries for Linux, so if you want to run on Linux, you will need to read Development#Build-Environment and build and package it yourself.
-NOTE: I have confirmed that it works on Ubuntu 18.04.1.</description>
+      <description>&lt;h1 id=&#34;for-linux&#34;&gt;For Linux&lt;a class=&#34;anchor&#34; href=&#34;#for-linux&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Pre-built binaries for Linux are not currently available. To run Scratch3-Tello on Linux, please refer to &lt;a href=&#34;../../development/build-env&#34;&gt;Build Environment&lt;/a&gt; and build it yourself.&lt;/p&gt;&#xA;&lt;p&gt;NOTE: It has been confirmed to work on Ubuntu 18.04.1.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

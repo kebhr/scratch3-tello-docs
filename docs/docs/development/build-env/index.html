@@ -1,49 +1,70 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Build Environment # The scratch3-tello repository contains diffs for scratch-vm and scratch-gui repositories in file units. Therefore, to build scratch3-tello, you need to clone scratch-vm and scratch-gui and then apply diffs.
-Requirements # wget git node.js npm Create a working directory # $ mkdir scratch3-tello $ cd scratch3-tello Download the script to make an environment # $ wget https://raw.githubusercontent.com/kebhr/scratch3-tello/master/build.sh $ chmod &#43;x build.sh Run the script to make an environment to build scratch3-tello # $ .">
-<meta name="theme-color" content="#FFFFFF">
-<meta name="color-scheme" content="light dark"><meta property="og:title" content="Build Environment" />
-<meta property="og:description" content="Build Environment # The scratch3-tello repository contains diffs for scratch-vm and scratch-gui repositories in file units. Therefore, to build scratch3-tello, you need to clone scratch-vm and scratch-gui and then apply diffs.
-Requirements # wget git node.js npm Create a working directory # $ mkdir scratch3-tello $ cd scratch3-tello Download the script to make an environment # $ wget https://raw.githubusercontent.com/kebhr/scratch3-tello/master/build.sh $ chmod &#43;x build.sh Run the script to make an environment to build scratch3-tello # $ ." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://scratch3-tello.app/docs/development/build-env/" /><meta property="article:section" content="docs" />
-
-
-<title>Build Environment | Scratch3-Tello</title>
-<link rel="manifest" href="https://scratch3-tello.app/manifest.json">
-<link rel="icon" href="https://scratch3-tello.app/favicon.png" type="image/x-icon">
-  <link rel="alternate" hreflang="ja" href="https://scratch3-tello.app/ja/docs/development/build-env/" title="環境構築">
-<link rel="stylesheet" href="https://scratch3-tello.app/book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css" integrity="sha256-M6SPVDKXO4/5qCZ52eRdZ/LBXUOZvSgpJpRVz&#43;OQteg=" crossorigin="anonymous">
-  <script defer src="https://scratch3-tello.app/flexsearch.min.js"></script>
-  <script defer src="https://scratch3-tello.app/en.search.min.af6658df36f14709628875c8c418391eea21de3ce5637922b5e45221e813d79c.js" integrity="sha256-r2ZY3zbxRwliiHXIxBg5Huoh3jzlY3kiteRSIegT15w=" crossorigin="anonymous"></script>
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-P3D9WLXZPL"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-P3D9WLXZPL', { 'anonymize_ip': false });
-}
-</script>
-<!--
+  <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Build Environment# The scratch3-tello repository contains per-file diffs for the scratch-vm and scratch-gui repositories. To build Scratch3-Tello, you need to clone scratch-vm and scratch-gui and then apply the diffs.
+Requirements# wget git node.js npm Create a working directory# $ mkdir scratch3-tello $ cd scratch3-telloDownload the build script# $ wget https://raw.githubusercontent.com/kebhr/scratch3-tello/master/build.sh $ chmod &#43;x build.shRun the build script# $ ./build.shRunning build.sh will automatically clone scratch-vm, scratch-gui, and scratch-desktop, and apply the diff files managed by the scratch3-tello repository.
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://scratch3-tello.app/docs/development/build-env/">
+  <meta property="og:site_name" content="Scratch3-Tello">
+  <meta property="og:title" content="Build Environment">
+  <meta property="og:description" content="Build Environment# The scratch3-tello repository contains per-file diffs for the scratch-vm and scratch-gui repositories. To build Scratch3-Tello, you need to clone scratch-vm and scratch-gui and then apply the diffs.
+Requirements# wget git node.js npm Create a working directory# $ mkdir scratch3-tello $ cd scratch3-telloDownload the build script# $ wget https://raw.githubusercontent.com/kebhr/scratch3-tello/master/build.sh $ chmod &#43;x build.shRun the build script# $ ./build.shRunning build.sh will automatically clone scratch-vm, scratch-gui, and scratch-desktop, and apply the diff files managed by the scratch3-tello repository.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+
+
+  <meta itemprop="name" content="Build Environment">
+  <meta itemprop="description" content="Build Environment# The scratch3-tello repository contains per-file diffs for the scratch-vm and scratch-gui repositories. To build Scratch3-Tello, you need to clone scratch-vm and scratch-gui and then apply the diffs.
+Requirements# wget git node.js npm Create a working directory# $ mkdir scratch3-tello $ cd scratch3-telloDownload the build script# $ wget https://raw.githubusercontent.com/kebhr/scratch3-tello/master/build.sh $ chmod &#43;x build.shRun the build script# $ ./build.shRunning build.sh will automatically clone scratch-vm, scratch-gui, and scratch-desktop, and apply the diff files managed by the scratch3-tello repository.">
+  <meta itemprop="wordCount" content="94">
+
+<title>Build Environment | Scratch3-Tello</title>
+<link rel="icon" href="https://scratch3-tello.app/favicon.png" >
+<link rel="manifest" href="https://scratch3-tello.app/manifest.json">
+<link rel="canonical" href="https://scratch3-tello.app/docs/development/build-env/">
+  <link rel="alternate" hreflang="ja" href="https://scratch3-tello.app/ja/docs/development/build-env/" title="環境構築">
+<link rel="stylesheet" href="https://scratch3-tello.app/book.min.cc2c524ed250aac81b23d1f4af87344917b325208841feca0968fe450f570575.css" integrity="sha256-zCxSTtJQqsgbI9H0r4c0SRezJSCIQf7KCWj&#43;RQ9XBXU=" crossorigin="anonymous">
+
+
+  <script defer src="https://scratch3-tello.app/fuse.min.js"></script>
+  <script defer src="https://scratch3-tello.app/en.search.min.9dfff0244123854809dbc142b4f826496d2d4d986810f47632121abb39e028d1.js" integrity="sha256-nf/wJEEjhUgJ28FCtPgmSW0tTZhoEPR2MhIauzngKNE=" crossorigin="anonymous"></script>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-P3D9WLXZPL"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-P3D9WLXZPL');
+        }
+      </script>
+
+
   
 </head>
-<body dir="ltr">
+<body dir="ltr" class="book-kind-page book-type-docs">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">
-    <aside class="book-menu">
-      <div class="book-menu-content">
-        
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
   <nav>
 <h2 class="book-brand">
   <a class="flex align-center" href="https://scratch3-tello.app/"><span>Scratch3-Tello</span>
@@ -51,16 +72,19 @@ https://github.com/alex-shpak/hugo-book
 </h2>
 
 
-<div class="book-search">
-  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="Search"
+    aria-label="Search"
+    maxlength="64" data-hotkeys="s/" />
   <div class="book-search-spinner hidden"></div>
   <ul id="book-search-results"></ul>
 </div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
 
 
 
   
-
 
 
   
@@ -74,17 +98,18 @@ https://github.com/alex-shpak/hugo-book
 <ul class="book-languages">
   <li>
     <input type="checkbox" id="languages" class="toggle" />
-    <label for="languages" class="flex justify-between">
-      <a role="button" class="flex align-center">
-        <img src="https://scratch3-tello.app/svg/translate.svg" class="book-icon" alt="Languages" />
+    <label for="languages" class="flex">
+      <a role="button">
+        <img src="https://scratch3-tello.app/icons/translate.svg" class="book-icon" alt="Languages" />
         English
       </a>
+      <img src="https://scratch3-tello.app/icons/chevron-right.svg" class="book-icon" alt="Expand" />
     </label>
 
     <ul>
       
       <li>
-        <a href="https://scratch3-tello.app/ja/docs/development/build-env/">
+        <a href="https://scratch3-tello.app/ja/docs/development/build-env/" class="flex flex-auto">
           Japanese
         </a>
       </li>
@@ -103,9 +128,6 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  
-
-
 
   
   <ul>
@@ -117,7 +139,8 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <span>Getting started</span>
+    <a>
+      Getting started</a>
   
 
           
@@ -130,7 +153,8 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://scratch3-tello.app/docs/getting-started/windows/" class="">For Windows</a>
+    <a href="https://scratch3-tello.app/docs/getting-started/windows/" class="">
+      For Windows</a>
   
 
         </li>
@@ -143,7 +167,8 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://scratch3-tello.app/docs/getting-started/macos/" class="">For macOS</a>
+    <a href="https://scratch3-tello.app/docs/getting-started/macos/" class="">
+      For macOS</a>
   
 
         </li>
@@ -156,7 +181,8 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://scratch3-tello.app/docs/getting-started/linux/" class="">For Linux</a>
+    <a href="https://scratch3-tello.app/docs/getting-started/linux/" class="">
+      For Linux</a>
   
 
         </li>
@@ -174,7 +200,8 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <span>Development</span>
+    <a>
+      Development</a>
   
 
           
@@ -187,7 +214,8 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://scratch3-tello.app/docs/development/build-env/" class="active">Build Environment</a>
+    <a href="https://scratch3-tello.app/docs/development/build-env/" class="active">
+      Build Environment</a>
   
 
         </li>
@@ -200,7 +228,8 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://scratch3-tello.app/docs/development/i18n/" class="">Internationalization</a>
+    <a href="https://scratch3-tello.app/docs/development/i18n/" class="">
+      Internationalization</a>
   
 
         </li>
@@ -218,25 +247,8 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://scratch3-tello.app/docs/news/" class="">News</a>
-  
-
-          
-  <ul>
-    
-  </ul>
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://scratch3-tello.app/docs/privacy/" class="">Privacy Policy</a>
+    <a href="https://scratch3-tello.app/docs/news/" class="">
+      News</a>
   
 
           
@@ -254,7 +266,27 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://scratch3-tello.app/docs/contact/" class="">Contact Me</a>
+    <a href="https://scratch3-tello.app/docs/privacy/" class="">
+      Privacy Policy</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://scratch3-tello.app/docs/contact/" class="">
+      Contact Me</a>
   
 
           
@@ -266,8 +298,6 @@ https://github.com/alex-shpak/hugo-book
       
     
   </ul>
-
-
 
 
 
@@ -289,40 +319,41 @@ https://github.com/alex-shpak/hugo-book
   <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
 
 
+
+  </div>
+</aside>
  
-      </div>
-    </aside>
 
     <div class="book-page">
-      <header class="book-header">
+      <header class="book-header hidden">
         
   <div class="flex align-center justify-between">
   <label for="menu-control">
-    <img src="https://scratch3-tello.app/svg/menu.svg" class="book-icon" alt="Menu" />
+    <img src="https://scratch3-tello.app/icons/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Build Environment</strong>
+  <h3>Build Environment</h3>
 
   <label for="toc-control">
     
-    <img src="https://scratch3-tello.app/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    <img src="https://scratch3-tello.app/icons/toc.svg" class="book-icon" alt="Table of Contents" />
     
   </label>
 </div>
 
 
   
-  <aside class="hidden clearfix">
+  <aside class="hidden">
     
   
 <nav id="TableOfContents">
   <ul>
     <li><a href="#requirements">Requirements</a></li>
     <li><a href="#create-a-working-directory">Create a working directory</a></li>
-    <li><a href="#download-the-script-to-make-an-environment">Download the script to make an environment</a></li>
-    <li><a href="#run-the-script-to-make-an-environment-to-build-scratch3-tello">Run the script to make an environment to build scratch3-tello</a></li>
+    <li><a href="#download-the-build-script">Download the build script</a></li>
+    <li><a href="#run-the-build-script">Run the build script</a></li>
     <li><a href="#start-scratch3-tello">Start Scratch3-Tello</a></li>
-    <li><a href="#make-package">Make package</a></li>
+    <li><a href="#build-a-package">Build a package</a></li>
   </ul>
 </nav>
 
@@ -335,52 +366,26 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h1 id="build-environment">
-  Build Environment
-  <a class="anchor" href="#build-environment">#</a>
-</h1>
-<p>The <code>scratch3-tello</code> repository contains diffs for <code>scratch-vm</code> and <code>scratch-gui</code> repositories in file units. Therefore, to build scratch3-tello, you need to clone <code>scratch-vm</code> and <code>scratch-gui</code> and then apply diffs.</p>
-<h2 id="requirements">
-  Requirements
-  <a class="anchor" href="#requirements">#</a>
-</h2>
+  <article class="markdown book-article"><h1 id="build-environment">Build Environment<a class="anchor" href="#build-environment">#</a></h1>
+<p>The <code>scratch3-tello</code> repository contains per-file diffs for the <code>scratch-vm</code> and <code>scratch-gui</code> repositories. To build Scratch3-Tello, you need to clone <code>scratch-vm</code> and <code>scratch-gui</code> and then apply the diffs.</p>
+<h2 id="requirements">Requirements<a class="anchor" href="#requirements">#</a></h2>
 <ul>
 <li>wget</li>
 <li>git</li>
 <li>node.js</li>
 <li>npm</li>
 </ul>
-<h2 id="create-a-working-directory">
-  Create a working directory
-  <a class="anchor" href="#create-a-working-directory">#</a>
-</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ mkdir scratch3-tello
-</span></span><span style="display:flex;"><span>$ cd scratch3-tello
-</span></span></code></pre></div><h2 id="download-the-script-to-make-an-environment">
-  Download the script to make an environment
-  <a class="anchor" href="#download-the-script-to-make-an-environment">#</a>
-</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ wget https://raw.githubusercontent.com/kebhr/scratch3-tello/master/build.sh
-</span></span><span style="display:flex;"><span>$ chmod +x build.sh
-</span></span></code></pre></div><h2 id="run-the-script-to-make-an-environment-to-build-scratch3-tello">
-  Run the script to make an environment to build scratch3-tello
-  <a class="anchor" href="#run-the-script-to-make-an-environment-to-build-scratch3-tello">#</a>
-</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ ./build.sh
-</span></span></code></pre></div><p>Running <code>build.sh</code> will automatically clone <code>scratch-vm</code>, <code>scratch-gui</code>, and <code>scratch-desktop</code> and apply diffs files managed by <code>scratch3-tello</code> repository.</p>
-<h2 id="start-scratch3-tello">
-  Start Scratch3-Tello
-  <a class="anchor" href="#start-scratch3-tello">#</a>
-</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ cd scratch-desktop
-</span></span><span style="display:flex;"><span>$ npm start
-</span></span></code></pre></div><h2 id="make-package">
-  Make package
-  <a class="anchor" href="#make-package">#</a>
-</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ cd scratch-desktop
-</span></span><span style="display:flex;"><span>$ npm run dist:dir
-</span></span></code></pre></div></article>
+<h2 id="create-a-working-directory">Create a working directory<a class="anchor" href="#create-a-working-directory">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ mkdir scratch3-tello
+</span></span><span style="display:flex;"><span>$ cd scratch3-tello</span></span></code></pre></div><h2 id="download-the-build-script">Download the build script<a class="anchor" href="#download-the-build-script">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ wget https://raw.githubusercontent.com/kebhr/scratch3-tello/master/build.sh
+</span></span><span style="display:flex;"><span>$ chmod +x build.sh</span></span></code></pre></div><h2 id="run-the-build-script">Run the build script<a class="anchor" href="#run-the-build-script">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ ./build.sh</span></span></code></pre></div><p>Running <code>build.sh</code> will automatically clone <code>scratch-vm</code>, <code>scratch-gui</code>, and <code>scratch-desktop</code>, and apply the diff files managed by the <code>scratch3-tello</code> repository.</p>
+<h2 id="start-scratch3-tello">Start Scratch3-Tello<a class="anchor" href="#start-scratch3-tello">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ cd scratch-desktop
+</span></span><span style="display:flex;"><span>$ npm start</span></span></code></pre></div><h2 id="build-a-package">Build a package<a class="anchor" href="#build-a-package">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ cd scratch-desktop
+</span></span><span style="display:flex;"><span>$ npm run dist:dir</span></span></code></pre></div></article>
  
       
 
@@ -388,65 +393,103 @@ https://github.com/alex-shpak/hugo-book
         
   <div class="flex flex-wrap justify-between">
 
+<div>
 
+</div>
 
+<div>
 
-  <div>
-    <a class="flex align-center" href="https://github.com/kebhr/scratch3-tello-docs/edit/master/content/docs/development/build-env.md" target="_blank" rel="noopener">
-      <img src="https://scratch3-tello.app/svg/edit.svg" class="book-icon" alt="Edit" />
-      <span>Edit this page</span>
-    </a>
-  </div>
-
+</div>
 
 </div>
 
 
 
-  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+  
+  
+  
+  <div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="https://scratch3-tello.app/docs/getting-started/linux/" class="flex align-center">
+        <img src="https://scratch3-tello.app/icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>For Linux</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="https://scratch3-tello.app/docs/development/i18n/" class="flex align-center">
+        <span>Internationalization</span>
+        <img src="https://scratch3-tello.app/icons/forward.svg" class="book-icon" alt="Forward" />
+      </a>
+    
+    </span>
+  </div>
+  
 
 
  
         
-      </footer>
-
-      
   
   <div class="book-comments">
 
 </div>
   
  
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
 
       <label for="menu-control" class="hidden book-menu-overlay"></label>
     </div>
 
     
-    <aside class="book-toc">
-      <div class="book-toc-content">
-        
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
   
 <nav id="TableOfContents">
   <ul>
     <li><a href="#requirements">Requirements</a></li>
     <li><a href="#create-a-working-directory">Create a working directory</a></li>
-    <li><a href="#download-the-script-to-make-an-environment">Download the script to make an environment</a></li>
-    <li><a href="#run-the-script-to-make-an-environment-to-build-scratch3-tello">Run the script to make an environment to build scratch3-tello</a></li>
+    <li><a href="#download-the-build-script">Download the build script</a></li>
+    <li><a href="#run-the-build-script">Run the build script</a></li>
     <li><a href="#start-scratch3-tello">Start Scratch3-Tello</a></li>
-    <li><a href="#make-package">Make package</a></li>
+    <li><a href="#build-a-package">Build a package</a></li>
   </ul>
 </nav>
 
 
+
+    </div>
+  </aside>
+  
  
-      </div>
-    </aside>
-    
   </main>
 
   
 </body>
 </html>
+
+
+
+
+
+
+
+
 
 
 
