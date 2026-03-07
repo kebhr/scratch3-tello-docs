@@ -6,13 +6,16 @@ Built by [Hugo](https://gohugo.io/) and using [Book](https://themes.gohugo.io/hu
 
 ## Install
 ```sh
-# clone
-git clone https://github.com/kebhr/scratch3-tello-docs.git
+# clone (with submodule)
+git clone --recurse-submodules https://github.com/kebhr/scratch3-tello-docs.git
 cd scratch3-tello-docs
 
-# install Book theme
-git submodule add https://github.com/alex-shpak/hugo-book themes/book
+# if you already cloned without --recurse-submodules, run:
+git submodule update --init --recursive
 
-# run server
-hugo server --minify --theme book
+# run dev server
+hugo server
+
+# build
+hugo
 ```
