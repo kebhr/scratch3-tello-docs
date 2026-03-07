@@ -36,3 +36,5 @@ See the installation guide for your operating system:
 ## Sponsor
 Scratch3-Tello is developed and maintained on a volunteer basis, and costs such as development and domain fees are covered out of pocket.
 If you find Scratch3-Tello useful, please consider becoming a sponsor on [Patreon](https://www.patreon.com/scratch3_tello)—it really helps keep the project going.
+
+Sponsors will have their name and affiliation displayed here.
