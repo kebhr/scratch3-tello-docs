@@ -1,5 +1,5 @@
 ---
-title: Scratch 3.0でTelloを飛ばそう！Scratch3-Tello
+title: Scratch3-Tello - Scratch 3.0でTelloを飛ばそう！
 type: docs
 bookToc: false
 description: Scratch3-TelloはScratch 3.0を用いてTelloをプログラミングできるソフトです。

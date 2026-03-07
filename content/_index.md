@@ -1,5 +1,5 @@
 ---
-title: Let's fly Tello with Scratch 3.0! Scratch3-Tello
+title: Scratch3-Tello - Let's fly Tello with Scratch 3.0!
 type: docs
 bookToc: false
 description: Scratch3-Tello is software that allows you to program Tello using Scratch 3.0.
